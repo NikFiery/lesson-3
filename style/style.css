@@ -10,8 +10,8 @@
  }
 
  .container {
-   width: 100%; 
- }
+   width: 100%;
+}
 
  header {
    text-align: center;
@@ -54,7 +54,9 @@
 
  h3 {
    font-family: 'Open Sans', sans-serif;
-   font-size: 18.72px;
+    font-size: 18.72px;
+    font-weight: 600;
+    color: #333333;
  }
 
  .border--light {
@@ -83,7 +85,7 @@
  }
 
  .stylish {
-   background: url(../img/city.png) center center no-repeat;
+   background: url(../img/city.png) center center repeat;
    margin: 0 auto;
    height: 289px;
    position: relative;
@@ -152,7 +154,7 @@ button:hover {
 }
 
 button:active {
-   background: #ff8c2c;
+   background: #f8923f;
    border: 5px solid #000000;
    transition: 0.01s;
 }
@@ -172,19 +174,11 @@ footer {
 
 ul {
    width: 100%;
-   text-align: center;
 }
 
 li {
    display: inline-block;
-   margin: 0 15px;
-}
-
-
-.link {
-   width: 23px;
-   height: 23px;
-   display: inline-block;
+   margin: 0 11px;
 }
 
 .footer--text {
